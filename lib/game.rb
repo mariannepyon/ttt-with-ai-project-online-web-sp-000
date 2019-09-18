@@ -70,9 +70,9 @@ class Game
       turn
     end
     if draw?
-      puts "WINNER: NONE"
+      puts "Cat's Game!"
     elsif won?
-      puts "WINNER: #{winner}"
+      puts "Congratulations #{winner}!"
     end
   end
 
