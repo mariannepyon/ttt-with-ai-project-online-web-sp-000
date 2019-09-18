@@ -64,16 +64,16 @@ class Game
   def play
     # board.reset!
     # system('clear')
-    # puts "Game #{@counter}" if @wargame
-    # board.display
-    # while !over?
-    #   turn
-    # end
-    # if draw?
-    #   puts "WINNER: NONE"
-    # elsif won?
-    #   puts "WINNER: #{winner}"
-    # end
+    puts "Game #{@counter}" if @wargame
+    board.display
+    while !over?
+      turn
+    end
+    if draw?
+      puts "WINNER: NONE"
+    elsif won?
+      puts "WINNER: #{winner}"
+    end
   end
 
 
